@@ -33,18 +33,20 @@
 // })
 
 // Part - 2 :----
-var tl = gsap.timeline();
-tl.from(".logo", {
-    y: -40,
-    delay: 1,
-    duration: 2
-})
-tl.from(".links a", {
-    y: -40,
-    duration: 2,
-    stagger: .3
-})
-tl.from(".part-2-h1", {
-    scale: 0,
-    duration: 1.5
-})
+// var tl = gsap.timeline();
+// tl.from(".logo", {
+//     y: -40,
+//     delay: 1,
+//     duration: 2
+// })
+// tl.from(".links a", {
+//     y: -40,
+//     duration: 2,
+//     stagger: .3
+// })
+// tl.from(".part-2-h1", {
+//     scale: 0,
+//     duration: 1.5
+// })
+
+// Part - 3 (Use of scrollTrigger)
