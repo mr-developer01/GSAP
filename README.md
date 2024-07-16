@@ -121,3 +121,4 @@
     })
 
 8. Creating Custom Cursor :---
+9. Navbar animation

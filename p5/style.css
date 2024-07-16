@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    cursor: none;
+    overflow-x: hidden;
+}
+
+#cursor{
+    position: fixed;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #111;
+    z-index: 9;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1504488502898-504089af9a2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+    color: white;
+}
+
+nav h1{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+nav i{
+    font-size: 1.5vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+#slider{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 8vh;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: -30%;
+    width: 30%;
+    height: 100%;
+    padding-left: 4vw;
+    background-color: white;
+    cursor: auto;
+}
+
+#slider i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: black;
+    color: white;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
